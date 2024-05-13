@@ -1,0 +1,316 @@
+body {
+  background-color: #271372;
+  background-image: linear-gradient(45deg, #271372, #CE436A);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#pagination {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 4px;
+    padding: 1px 2px 4px 2px;
+    border-top: 1px solid #AEAEAE;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: #DADADA;
+    background-image: -webkit-linear-gradient(top, #DBDBDB, #E2E2E2);
+    background-image:    -moz-linear-gradient(top, #DBDBDB, #E2E2E2);
+    background-image:     -ms-linear-gradient(top, #DBDBDB, #E2E2E2);
+    background-image:      -o-linear-gradient(top, #DBDBDB, #E2E2E2);
+    background-image:         linear-gradient(top, #DBDBDB, #E2E2E2);
+}
+#pagination a, #pagination i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    color: #7D7D7D;
+    text-align: center;
+    font-size: 10px;
+    padding: 3px 0 2px 0;
+    -webkit-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}
+
+#pagination a {
+    margin: 0 2px 0 2px;
+    border-radius: 4px;
+    border: 1px solid #E3E3E3;
+    cursor: pointer;
+    box-shadow: inset 0 1px 0 0 #FFF, 0 1px 2px #666;
+    text-shadow: 0 1px 1px #FFF;
+    background-color: #E6E6E6;
+    background-image: -webkit-linear-gradient(top, #F3F3F3, #D7D7D7);
+    background-image:    -moz-linear-gradient(top, #F3F3F3, #D7D7D7);
+    background-image:     -ms-linear-gradient(top, #F3F3F3, #D7D7D7);
+    background-image:      -o-linear-gradient(top, #F3F3F3, #D7D7D7);
+    background-image:         linear-gradient(top, #F3F3F3, #D7D7D7);
+}
+#pagination i {
+    margin: 0 3px 0 3px;
+}
+#pagination a.current {
+    border: 1px solid #E9E9E9;
+    box-shadow: 0 1px 1px #999;
+    background-color: #DFDFDF;
+    background-image: -webkit-linear-gradient(top, #D0D0D0, #EBEBEB);
+    background-image:    -moz-linear-gradient(top, #D0D0D0, #EBEBEB);
+    background-image:     -ms-linear-gradient(top, #D0D0D0, #EBEBEB);
+    background-image:      -o-linear-gradient(top, #D0D0D0, #EBEBEB);
+    background-image:         linear-gradient(top, #D0D0D0, #EBEBEB);
+}
+
+
+float-right {
+	float: right;
+	text-align: right;
+	vertical-align: top;
+	margin: 0; /* Remove any margin */
+    padding: 0;
+}
+
+.pop-up
+{
+    width:70%;
+    height: 80%;
+    background: #FFFFFF;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    /* margin-left:-25%; */
+    margin-top: -50px;
+}
+
+.description
+{ 
+    height:75px;
+    overflow-y:scroll;
+}
+
+.top-row {
+  background: #fff;
+  height: 42px;
+  margin: 0 auto;
+  padding: 0; /* Reduce overall padding for better spacing */
+  margin-left: -0.5vw;
+  width: 99.2vw;
+  display: flex;
+  margin-top: -0.4vw;
+}
+
+.title{
+  display: flex;
+}
+
+.left{
+	display: flex;
+}
+
+.second{
+	display: flex;
+}
+
+
+.btn {
+  background-color: #fff;
+  border: none;
+  color: #271372;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  bottom: 0;
+}
+
+textarea{
+	resize: none;
+}
+
+.btn:hover {
+  background-color: #271372;
+  color: #fff;
+}
+
+header .header {
+  background-color: #fff;
+  height: 45px;
+}
+
+.admin-page {
+  margin: 0;
+  position: center;
+  top: 30%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+}
+
+.admin {
+  display: flex;
+}
+
+.admin-page .form .admin {
+  margin-top: -31px;
+  margin-bottom: 26px;
+}
+
+.form {
+  z-index: 1;
+  background: #FFFFFF;
+  width: 1700px;
+  height: 700px;
+  margin: 50px;
+  padding: 50px; /* Reduce overall padding for better spacing */
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input,
+.form select {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100px;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+
+th:nth-child(1), td:nth-child(1) {
+      width: 5%;
+    }
+
+    th:nth-child(2), td:nth-child(2) {
+      width: 5%;
+    }
+
+    th:nth-child(3), td:nth-child(3) {
+      width: 10%;
+    }
+
+    th:nth-child(4), td:nth-child(4) {
+      width: 5%;
+    }
+
+    th:nth-child(5), td:nth-child(5) {
+      width: 17.5%;
+    }
+
+    th:nth-child(6), td:nth-child(6) {
+      width: 17.5%;
+    }
+
+    th:nth-child(7), td:nth-child(7) {
+      width: 10%;
+    }
+
+    th:nth-child(8), td:nth-child(8) {
+      width: 10%;
+    }
+
+    th:nth-child(9), td:nth-child(9) {
+      width: 10%;
+    }
+    th:nth-child(10), td:nth-child(10) {
+      width: 10%;
+    }
+
+
+table tr td form button.btn{
+	margin: 0;
+	background-color: #fff;
+	background-image: #CE436A;
+	padding: 0px0 px;
+	font-size: 12px;
+}
+
+.buttonss {
+	font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #F3F3F3;
+  width: 200px;
+  border: 0;
+  padding: 12px;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #271372;
+  background-image: linear-gradient(45deg, #CE436A, #271372);
+  width: 200px;
+  border: 0;
+  color: #FFFFFF;
+  padding: 15px;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.buttton {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #271372;
+  background-image: linear-gradient(45deg, #CE436A, #271372);
+  width: 200px;
+  border: 0;
+  color: #FFFFFF;
+  padding: 15px;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: aboslute;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+}
+
+.pagination {
+	display: flex;
+	align-items: center;
+	position: relative;
+	left: 50%;
+	width: 50px;
+}
+.pagination button {
+  outline: 0;
+  background-color: #271372;
+  background-image: linear-gradient(45deg, #CE436A, #271372);
+  width: 30px;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  align-items: center;
+}
+
+.container select,
+.container input,
+.container button {
+  flex: 1; /* Adjust the flex value as needed */
+  margin-right: 5px; /* Adjust margin as needed */
+  width: 30%; /* Adjust the width as needed */
+}
